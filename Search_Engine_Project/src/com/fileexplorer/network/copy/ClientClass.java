@@ -1,0 +1,37 @@
+package com.fileexplorer.network.copy;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.io.PrintStream;
+import java.net.Socket;
+
+public class ClientClass {
+	
+	public static void main(String args[]) throws Exception {
+		
+		Socket socket = new Socket("10.150.170.44", 9000);
+		BufferedReader inputVar = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+		PrintStream outVar = new PrintStream(socket.getOutputStream());
+		BufferedReader stdin = new BufferedReader(new InputStreamReader(System.in));
+		String str;
+		
+		while (true) {
+			System.out.print("Client : ");
+			str = stdin.readLine();
+			outVar.println(str);
+			if (str.equalsIgnoreCase("exit")) {
+				System.out.println("Connection aborted.....");
+				break;
+			}
+
+			str = inputVar.readLine();
+			System.out.print("Server : " + str + "\n");
+
+		}
+		socket.close();
+		inputVar.close();
+		outVar.close();
+		stdin.close();
+	}
+
+}

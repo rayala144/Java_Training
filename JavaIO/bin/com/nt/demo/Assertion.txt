@@ -1,0 +1,8 @@
+Assert keyword in Java:
+
+- Testing assumptions in the program
+- If assumption is false, JVM says "Assertion error"
+- Used for testing purposes during the development process
+
+-Used to check logically possible statements
+- check if the code is unreachable

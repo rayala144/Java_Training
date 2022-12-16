@@ -1,0 +1,34 @@
+1665981354669	Copy package
+1665981363488	Delete element
+1665981545943	Move compilation unit
+1665982863624	Rename local variable 'obj'
+1665982907920	Delete element
+1665996951105	Rename local variable 'keys2'
+1665997188335	Rename local variable 'obj2'
+1665997196295	Rename local variable 'obj3'
+1665997904132	Rename package 'com.MapExamples'
+1665997928575	Rename package 'com.LinkedListExample'
+1665997945202	Rename package 'com.HashSetExample'
+1665997967002	Rename package 'com.TreeSetExample'
+1665997986472	Rename package 'com.VectorExample'
+1665998212466	Rename field 'stuAge'
+1666020026318	Rename method 'calculateAge'
+1666029946321	Rename type 'GSTCalc'
+1666075721262	Rename type 'intReturnType'
+1666075875991	Rename type 'returnMultiple'
+1666075889036	Rename type 'returnObject'
+1666093435411	Rename type 'StringBuilder'
+1666093497285	Rename type 'StringBuffer'
+1666155460849	Rename field 'attachments'
+1666160251280	Delete element
+1666163431599	Delete element
+1666163859022	Rename field 'property'
+1666163959363	Rename package 'com.finalExample'
+1666163995766	Rename package 'SuperKeyword'
+1666174056751	Delete element
+1666241815591	Rename package 'com.ThreadJava'
+1666246807629	Rename package 'com.DataInputStreamRuntimeInitialization'
+1666260308569	Rename package 'com.BankATM'
+1666260333088	Delete element
+1666327035872	Delete element
+1666327038518	Delete element

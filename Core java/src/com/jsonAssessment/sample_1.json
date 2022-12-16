@@ -1,0 +1,5427 @@
+{
+    "p": 1,
+    "total": 7708,
+    "components": [
+        {
+            "path": "ha_support/bin/ha_lib.py",
+            "qualifier": "FIL",
+            "name": "ha_lib.py",
+            "key": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "enabled": true,
+            "longName": "ha_support/bin/ha_lib.py"
+        },
+        {
+            "path": "docs_development/conf.py",
+            "qualifier": "FIL",
+            "name": "conf.py",
+            "key": "MATRIX_FUNCTION_PACK.Matrix_Cloud:docs_development/conf.py",
+            "enabled": true,
+            "longName": "docs_development/conf.py"
+        },
+        {
+            "path": "ha_support/bin/ha_check_config.py",
+            "qualifier": "FIL",
+            "name": "ha_check_config.py",
+            "key": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_check_config.py",
+            "enabled": true,
+            "longName": "ha_support/bin/ha_check_config.py"
+        },
+        {
+            "qualifier": "TRK",
+            "name": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "key": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "enabled": true,
+            "longName": "MATRIX_FUNCTION_PACK.Matrix_Cloud"
+        }
+    ],
+    "ps": 100,
+    "languages": [
+        {
+            "name": "CSS",
+            "key": "css"
+        },
+        {
+            "name": "PL/SQL",
+            "key": "plsql"
+        },
+        {
+            "name": "Scala",
+            "key": "scala"
+        },
+        {
+            "name": "C#",
+            "key": "cs"
+        },
+        {
+            "name": "Java",
+            "key": "java"
+        },
+        {
+            "name": "HTML",
+            "key": "web"
+        },
+        {
+            "name": "JSP",
+            "key": "jsp"
+        },
+        {
+            "name": "XML",
+            "key": "xml"
+        },
+        {
+            "name": "Flex",
+            "key": "flex"
+        },
+        {
+            "name": "VB.NET",
+            "key": "vbnet"
+        },
+        {
+            "name": "Swift",
+            "key": "swift"
+        },
+        {
+            "name": "Neutral",
+            "key": "neutral"
+        },
+        {
+            "name": "C",
+            "key": "c"
+        },
+        {
+            "name": "C++",
+            "key": "cpp"
+        },
+        {
+            "name": "Objective-C",
+            "key": "objc"
+        },
+        {
+            "name": "Python",
+            "key": "py"
+        },
+        {
+            "name": "RPG",
+            "key": "rpg"
+        },
+        {
+            "name": "Go",
+            "key": "go"
+        },
+        {
+            "name": "Kotlin",
+            "key": "kotlin"
+        },
+        {
+            "name": "Shell",
+            "key": "shell"
+        },
+        {
+            "name": "T-SQL",
+            "key": "tsql"
+        },
+        {
+            "name": "PL/I",
+            "key": "pli"
+        },
+        {
+            "name": "Vb",
+            "key": "vb"
+        },
+        {
+            "name": "Apex",
+            "key": "apex"
+        },
+        {
+            "name": "JavaScript",
+            "key": "js"
+        },
+        {
+            "name": "TypeScript",
+            "key": "ts"
+        },
+        {
+            "name": "Ruby",
+            "key": "ruby"
+        },
+        {
+            "name": "Groovy",
+            "key": "grvy"
+        },
+        {
+            "name": "COBOL",
+            "key": "cobol"
+        },
+        {
+            "name": "Lua",
+            "key": "lua"
+        },
+        {
+            "name": "PHP",
+            "key": "php"
+        },
+        {
+            "name": "ABAP",
+            "key": "abap"
+        }
+    ],
+    "effortTotal": 48720,
+    "paging": {
+        "total": 7708,
+        "pageIndex": 1,
+        "pageSize": 100
+    },
+    "rules": [
+        {
+            "name": "Method names should comply with a naming convention",
+            "langName": "Python",
+            "lang": "py",
+            "key": "python:S100",
+            "status": "READY"
+        },
+        {
+            "name": "Collapsible \"if\" statements should be merged",
+            "langName": "Python",
+            "lang": "py",
+            "key": "python:S1066",
+            "status": "READY"
+        },
+        {
+            "name": "Function names should comply with a naming convention",
+            "langName": "Python",
+            "lang": "py",
+            "key": "python:S1542",
+            "status": "READY"
+        },
+        {
+            "name": "Field names should comply with a naming convention",
+            "langName": "Python",
+            "lang": "py",
+            "key": "python:S116",
+            "status": "READY"
+        },
+        {
+            "name": "Local variable and function parameter names should comply with a naming convention",
+            "langName": "Python",
+            "lang": "py",
+            "key": "python:S117",
+            "status": "READY"
+        },
+        {
+            "name": "Unused local variables should be removed",
+            "langName": "Python",
+            "lang": "py",
+            "key": "python:S1481",
+            "status": "READY"
+        },
+        {
+            "name": "Cognitive Complexity of functions should not be too high",
+            "langName": "Python",
+            "lang": "py",
+            "key": "python:S3776",
+            "status": "READY"
+        },
+        {
+            "name": "String literals should not be duplicated",
+            "langName": "Python",
+            "lang": "py",
+            "key": "python:S1192",
+            "status": "READY"
+        },
+        {
+            "name": "\"Exception\" and \"BaseException\" should not be raised",
+            "langName": "Python",
+            "lang": "py",
+            "key": "python:S112",
+            "status": "READY"
+        }
+    ],
+    "issues": [
+        {
+            "severity": "CRITICAL",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 208,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S1192",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "6min",
+            "message": "Define a constant instead of duplicating this literal u'Matrix Cloud Documentation' 3 times.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "design"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:docs_development/conf.py",
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "msg": "Duplication",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:docs_development/conf.py",
+                            "textRange": {
+                                "endLine": 238,
+                                "endOffset": 58,
+                                "startOffset": 29,
+                                "startLine": 238
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "Duplication",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:docs_development/conf.py",
+                            "textRange": {
+                                "endLine": 252,
+                                "endOffset": 56,
+                                "startOffset": 27,
+                                "startLine": 252
+                            }
+                        }
+                    ]
+                }
+            ],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 208,
+                "endOffset": 60,
+                "startOffset": 31,
+                "startLine": 208
+            },
+            "assignee": "abpatha2",
+            "debt": "6min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQqN_D1mrB4Kwt2",
+            "hash": "9dfc2370c280a5e8213959b143468d27",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 9,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"haSupport\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_check_config.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 9,
+                "endOffset": 13,
+                "startOffset": 4,
+                "startLine": 9
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSRBN_D1mrB4Kwwp",
+            "hash": "e4487e6d01cab45b578a67df03f27a24",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 29,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S1542",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "10min",
+            "message": "Rename function \"subProcessCommand\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 29,
+                "endOffset": 21,
+                "startOffset": 4,
+                "startLine": 29
+            },
+            "assignee": "abpatha2",
+            "debt": "10min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwu8",
+            "hash": "fad65a31676a22119c24f108d6b53ad9",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 30,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"subProcess\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 30,
+                "endOffset": 14,
+                "startOffset": 4,
+                "startLine": 30
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwu7",
+            "hash": "f4f006fd0fdef3d758dd521d3bbc2581",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 36,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S1542",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "10min",
+            "message": "Rename function \"subProcessStart\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 36,
+                "endOffset": 19,
+                "startOffset": 4,
+                "startLine": 36
+            },
+            "assignee": "abpatha2",
+            "debt": "10min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvA",
+            "hash": "8e0fe9d1aefbe2750e4e2e0c2af0b747",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 37,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"hostName\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 37,
+                "endOffset": 12,
+                "startOffset": 4,
+                "startLine": 37
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwu9",
+            "hash": "47bce4b81e154c6b532cf01ec9e0adbc",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 41,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"startUpCommand\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 41,
+                "endOffset": 22,
+                "startOffset": 8,
+                "startLine": 41
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwu-",
+            "hash": "e04c387bb9b4693f9460ad7341e9aa95",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 45,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"subProcess\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 45,
+                "endOffset": 18,
+                "startOffset": 8,
+                "startLine": 45
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwu_",
+            "hash": "d413af633d37222554055be7d205f337",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 56,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S112",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "20min",
+            "message": "Replace this generic exception class with a more specific one.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "cwe",
+                "error-handling"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 56,
+                "endOffset": 32,
+                "startOffset": 14,
+                "startLine": 56
+            },
+            "assignee": "abpatha2",
+            "debt": "20min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvB",
+            "hash": "4ed1b8d3c35c85f0aba75cf00499e031",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 68,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S112",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "20min",
+            "message": "Replace this generic exception class with a more specific one.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "cwe",
+                "error-handling"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 68,
+                "endOffset": 36,
+                "startOffset": 18,
+                "startLine": 68
+            },
+            "assignee": "abpatha2",
+            "debt": "20min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvC",
+            "hash": "4ed1b8d3c35c85f0aba75cf00499e031",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 73,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S112",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "20min",
+            "message": "Replace this generic exception class with a more specific one.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "cwe",
+                "error-handling"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 73,
+                "endOffset": 36,
+                "startOffset": 18,
+                "startLine": 73
+            },
+            "assignee": "abpatha2",
+            "debt": "20min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvD",
+            "hash": "4ed1b8d3c35c85f0aba75cf00499e031",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 77,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S1542",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "10min",
+            "message": "Rename function \"subProcessCommandRun\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 77,
+                "endOffset": 24,
+                "startOffset": 4,
+                "startLine": 77
+            },
+            "assignee": "abpatha2",
+            "debt": "10min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvF",
+            "hash": "69f504e20eb834d419c76dc0bfb4de90",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 77,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this parameter \"subProcess\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 77,
+                "endOffset": 35,
+                "startOffset": 25,
+                "startLine": 77
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvE",
+            "hash": "69f504e20eb834d419c76dc0bfb4de90",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 104,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S1542",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "10min",
+            "message": "Rename function \"subProcessCommandEnd\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 104,
+                "endOffset": 24,
+                "startOffset": 4,
+                "startLine": 104
+            },
+            "assignee": "abpatha2",
+            "debt": "10min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvH",
+            "hash": "d452a6c27654403829411945d98e0521",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 104,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this parameter \"subProcess\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 104,
+                "endOffset": 35,
+                "startOffset": 25,
+                "startLine": 104
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvG",
+            "hash": "d452a6c27654403829411945d98e0521",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 109,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S1542",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "10min",
+            "message": "Rename function \"sendEmail\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 109,
+                "endOffset": 13,
+                "startOffset": 4,
+                "startLine": 109
+            },
+            "assignee": "abpatha2",
+            "debt": "10min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvM",
+            "hash": "b74434bd2822c2dd158b6eea0319b41d",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 109,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this parameter \"emailHost\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 109,
+                "endOffset": 23,
+                "startOffset": 14,
+                "startLine": 109
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvI",
+            "hash": "b74434bd2822c2dd158b6eea0319b41d",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 109,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this parameter \"fromEmail\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 109,
+                "endOffset": 34,
+                "startOffset": 25,
+                "startLine": 109
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvJ",
+            "hash": "b74434bd2822c2dd158b6eea0319b41d",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 109,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this parameter \"textBody\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 109,
+                "endOffset": 63,
+                "startOffset": 55,
+                "startLine": 109
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvK",
+            "hash": "b74434bd2822c2dd158b6eea0319b41d",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 109,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this parameter \"toEmails\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 109,
+                "endOffset": 44,
+                "startOffset": 36,
+                "startLine": 109
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvL",
+            "hash": "b74434bd2822c2dd158b6eea0319b41d",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 120,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S112",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "20min",
+            "message": "Replace this generic exception class with a more specific one.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "cwe",
+                "error-handling"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 120,
+                "endOffset": 81,
+                "startOffset": 14,
+                "startLine": 120
+            },
+            "assignee": "abpatha2",
+            "debt": "20min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvO",
+            "hash": "4df3d7563717c6acae8aed3b29956105",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 128,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"startDateTime\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 128,
+                "endOffset": 26,
+                "startOffset": 13,
+                "startLine": 128
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvZ",
+            "hash": "3ce9ad16d4d596ba7a02ee8a4a16f0c5",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 129,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"haProgramName\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 129,
+                "endOffset": 26,
+                "startOffset": 13,
+                "startLine": 129
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvU",
+            "hash": "ac0757036ea6c8aa2f429a3d494edfd7",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 130,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"hostName\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 130,
+                "endOffset": 21,
+                "startOffset": 13,
+                "startLine": 130
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvP",
+            "hash": "387e9ae34ab769b79783f1affa3037d7",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 131,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"haBaseDirectory\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 131,
+                "endOffset": 28,
+                "startOffset": 13,
+                "startLine": 131
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvR",
+            "hash": "eea49e292a70d515ee223a47ed9a077d",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 132,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"pidFile\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 132,
+                "endOffset": 20,
+                "startOffset": 13,
+                "startLine": 132
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvd",
+            "hash": "d1fb16da5a8fce82e6e593132356f80a",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 133,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"configFileName\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 133,
+                "endOffset": 27,
+                "startOffset": 13,
+                "startLine": 133
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvT",
+            "hash": "71b42b99f3385752014d5066fd28116c",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 134,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"anotherKeepAliveRequestFlag\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 134,
+                "endOffset": 40,
+                "startOffset": 13,
+                "startLine": 134
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvS",
+            "hash": "2d4ad6298ba30cef938a3751f6eb1d8b",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 135,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"newState\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 135,
+                "endOffset": 21,
+                "startOffset": 13,
+                "startLine": 135
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvc",
+            "hash": "1838601e0524f378cd09d0e636ad870b",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 143,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"serviceList\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 143,
+                "endOffset": 24,
+                "startOffset": 13,
+                "startLine": 143
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvV",
+            "hash": "bacd267d7dd2902b0930c8ed2c010cb6",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 144,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"activeServices\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 144,
+                "endOffset": 27,
+                "startOffset": 13,
+                "startLine": 144
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvW",
+            "hash": "98b72bd5454128b332cfaa91ba4d4a96",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 145,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"activeServiceHostGroup\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 145,
+                "endOffset": 35,
+                "startOffset": 13,
+                "startLine": 145
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvY",
+            "hash": "52eeed696d15969a6fa51c44a266f7b1",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 146,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"dbMaster\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 146,
+                "endOffset": 21,
+                "startOffset": 13,
+                "startLine": 146
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvb",
+            "hash": "12c3a2f02ba5f105cf6b03eeb0bdf4e9",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 147,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"dbBackup\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 147,
+                "endOffset": 21,
+                "startOffset": 13,
+                "startLine": 147
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvQ",
+            "hash": "d097c3a7518ca170677c84bcd811afd5",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 148,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"dbService\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 148,
+                "endOffset": 22,
+                "startOffset": 13,
+                "startLine": 148
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwva",
+            "hash": "0a98a9d1fb81116a6c409abd1f133fd6",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 149,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S116",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this field \"dbOriginalState\" to match the regular expression ^[_a-z][_a-z0-9]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 149,
+                "endOffset": 28,
+                "startOffset": 13,
+                "startLine": 149
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwvX",
+            "hash": "020dd87c89d29024b298365bcacbfca2",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 152,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"anotherKeepAliveRequest\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 152,
+                "endOffset": 31,
+                "startOffset": 8,
+                "startLine": 152
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwve",
+            "hash": "c98e39cefa51dc963ac9fb92523922ef",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 155,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"enableInterrupt\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 155,
+                "endOffset": 23,
+                "startOffset": 8,
+                "startLine": 155
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvg",
+            "hash": "4bee1f5f722e1c2caaf30ad631ac1b75",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 157,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"signalBefore\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 157,
+                "endOffset": 20,
+                "startOffset": 8,
+                "startLine": 157
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvf",
+            "hash": "0e4594e43b8478ee05a0a462222c28ae",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 157,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S1481",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Remove the unused local variable \"signalBefore\".",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "unused"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 157,
+                "endOffset": 20,
+                "startOffset": 8,
+                "startLine": 157
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvh",
+            "hash": "0e4594e43b8478ee05a0a462222c28ae",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 159,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"disableInterrupt\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 159,
+                "endOffset": 24,
+                "startOffset": 8,
+                "startLine": 159
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvi",
+            "hash": "1adde909eaa08df356f562c815267b8f",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 164,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"getConfigParameter\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 164,
+                "endOffset": 26,
+                "startOffset": 8,
+                "startLine": 164
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvk",
+            "hash": "01e6739a775ae2354d8b96a106b19692",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 168,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"lineNumber\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 168,
+                "endOffset": 22,
+                "startOffset": 12,
+                "startLine": 168
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvj",
+            "hash": "14504878d9f25ca81c7a74829e87d19a",
+            "status": "OPEN"
+        },
+        {
+            "severity": "CRITICAL",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 189,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S3776",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "43min",
+            "message": "Refactor this function to reduce its Cognitive Complexity from 53 to the 15 allowed.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "brain-overload"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 191,
+                                "endOffset": 10,
+                                "startOffset": 8,
+                                "startLine": 191
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 200,
+                                "endOffset": 14,
+                                "startOffset": 8,
+                                "startLine": 200
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 211,
+                                "endOffset": 19,
+                                "startOffset": 16,
+                                "startLine": 211
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+2 (incl 1 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 214,
+                                "endOffset": 22,
+                                "startOffset": 20,
+                                "startLine": 214
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+2 (incl 1 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 217,
+                                "endOffset": 22,
+                                "startOffset": 20,
+                                "startLine": 217
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+2 (incl 1 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 221,
+                                "endOffset": 22,
+                                "startOffset": 20,
+                                "startLine": 221
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+3 (incl 2 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 223,
+                                "endOffset": 26,
+                                "startOffset": 24,
+                                "startLine": 223
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+3 (incl 2 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 233,
+                                "endOffset": 26,
+                                "startOffset": 24,
+                                "startLine": 233
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+4 (incl 3 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 234,
+                                "endOffset": 30,
+                                "startOffset": 28,
+                                "startLine": 234
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+4 (incl 3 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 241,
+                                "endOffset": 30,
+                                "startOffset": 28,
+                                "startLine": 241
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 241,
+                                "endOffset": 61,
+                                "startOffset": 59,
+                                "startLine": 241
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+5 (incl 4 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 242,
+                                "endOffset": 34,
+                                "startOffset": 32,
+                                "startLine": 242
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+5 (incl 4 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 244,
+                                "endOffset": 34,
+                                "startOffset": 32,
+                                "startLine": 244
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 246,
+                                "endOffset": 36,
+                                "startOffset": 32,
+                                "startLine": 246
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 248,
+                                "endOffset": 28,
+                                "startOffset": 24,
+                                "startLine": 248
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+4 (incl 3 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 249,
+                                "endOffset": 30,
+                                "startOffset": 28,
+                                "startLine": 249
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 249,
+                                "endOffset": 61,
+                                "startOffset": 59,
+                                "startLine": 249
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+5 (incl 4 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 250,
+                                "endOffset": 34,
+                                "startOffset": 32,
+                                "startLine": 250
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+3 (incl 2 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 252,
+                                "endOffset": 26,
+                                "startOffset": 24,
+                                "startLine": 252
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 252,
+                                "endOffset": 57,
+                                "startOffset": 55,
+                                "startLine": 252
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 254,
+                                "endOffset": 24,
+                                "startOffset": 20,
+                                "startLine": 254
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 258,
+                                "endOffset": 14,
+                                "startOffset": 8,
+                                "startLine": 258
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 264,
+                                "endOffset": 10,
+                                "startOffset": 8,
+                                "startLine": 264
+                            }
+                        }
+                    ]
+                }
+            ],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 189,
+                "endOffset": 17,
+                "startOffset": 8,
+                "startLine": 189
+            },
+            "assignee": "abpatha2",
+            "debt": "43min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvt",
+            "hash": "b4d116228e72e1ab5cae250c84601928",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 189,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"getConfig\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 189,
+                "endOffset": 17,
+                "startOffset": 8,
+                "startLine": 189
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvs",
+            "hash": "b4d116228e72e1ab5cae250c84601928",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-09-07T06:49:12+0000",
+            "comments": [],
+            "line": 194,
+            "author": "bibshaik@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"logFile\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2022-09-07T06:49:12+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 194,
+                "endOffset": 15,
+                "startOffset": 8,
+                "startLine": 194
+            },
+            "assignee": "bibshaik",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYMWt9_CLX7rU81QFWLg",
+            "hash": "b8eef97cafb2df1c27cb2c51f3e878ab",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 210,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"lineNumber\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 210,
+                "endOffset": 26,
+                "startOffset": 16,
+                "startLine": 210
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvm",
+            "hash": "14504878d9f25ca81c7a74829e87d19a",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 216,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"lineSplit\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 216,
+                "endOffset": 29,
+                "startOffset": 20,
+                "startLine": 216
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvn",
+            "hash": "77ae42bbbf2e1439353f6e0deffc7412",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 228,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"serviceName\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 228,
+                "endOffset": 35,
+                "startOffset": 24,
+                "startLine": 228
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvr",
+            "hash": "4bd847e18a3a74af85f6ee2d5bb3e429",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 229,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"masterHost\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 229,
+                "endOffset": 34,
+                "startOffset": 24,
+                "startLine": 229
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvp",
+            "hash": "ea79b731aca0a156a408ee59e38f0044",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 230,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"backupHost\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 230,
+                "endOffset": 34,
+                "startOffset": 24,
+                "startLine": 230
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvl",
+            "hash": "7b2ce2e5b51d6e7734f35d05ff0c395e",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 231,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"serviceHostGroup\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 231,
+                "endOffset": 40,
+                "startOffset": 24,
+                "startLine": 231
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvq",
+            "hash": "491174eb6ccde3d3d5c8cebb92a869e7",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 250,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S1066",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Merge this if statement with the enclosing one.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "clumsy"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "msg": "enclosing",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 249,
+                                "endOffset": 30,
+                                "startOffset": 28,
+                                "startLine": 249
+                            }
+                        }
+                    ]
+                }
+            ],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 250,
+                "endOffset": 34,
+                "startOffset": 32,
+                "startLine": 250
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwu5",
+            "hash": "7decd5c206e0f63a3c413850ce10b550",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 261,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S112",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "20min",
+            "message": "Replace this generic exception class with a more specific one.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "cwe",
+                "error-handling"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 261,
+                "endOffset": 36,
+                "startOffset": 18,
+                "startLine": 261
+            },
+            "assignee": "abpatha2",
+            "debt": "20min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvw",
+            "hash": "4ed1b8d3c35c85f0aba75cf00499e031",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 267,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S112",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "20min",
+            "message": "Replace this generic exception class with a more specific one.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "cwe",
+                "error-handling"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 267,
+                "endOffset": 36,
+                "startOffset": 18,
+                "startLine": 267
+            },
+            "assignee": "abpatha2",
+            "debt": "20min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvx",
+            "hash": "4ed1b8d3c35c85f0aba75cf00499e031",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 272,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"getArgv\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 272,
+                "endOffset": 15,
+                "startOffset": 8,
+                "startLine": 272
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvy",
+            "hash": "06c30759068219d07c587124e7c4dc2b",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 285,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S112",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "20min",
+            "message": "Replace this generic exception class with a more specific one.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "cwe",
+                "error-handling"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 285,
+                "endOffset": 36,
+                "startOffset": 18,
+                "startLine": 285
+            },
+            "assignee": "abpatha2",
+            "debt": "20min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwvz",
+            "hash": "4ed1b8d3c35c85f0aba75cf00499e031",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 288,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"emailNotificationRecevied\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 288,
+                "endOffset": 33,
+                "startOffset": 8,
+                "startLine": 288
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwv1",
+            "hash": "4467ee4c8f8509d3b6a530eb2fcee944",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 330,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"emailTo\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 330,
+                "endOffset": 19,
+                "startOffset": 12,
+                "startLine": 330
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwv0",
+            "hash": "878b49a71378e5159066a94e417dd4ed",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 340,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"emailTaskCompleted\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 340,
+                "endOffset": 26,
+                "startOffset": 8,
+                "startLine": 340
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwv4",
+            "hash": "cd06117c5c8e44572db3e808d63846a9",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-09-07T06:49:12+0000",
+            "comments": [],
+            "line": 341,
+            "author": "bibshaik@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"logFile\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2022-09-07T06:49:12+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 341,
+                "endOffset": 15,
+                "startOffset": 8,
+                "startLine": 341
+            },
+            "assignee": "bibshaik",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYMWt9_CLX7rU81QFWLh",
+            "hash": "44b003c4800c3047d5286bf110729811",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 358,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"emailTo\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 358,
+                "endOffset": 19,
+                "startOffset": 12,
+                "startLine": 358
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwv2",
+            "hash": "878b49a71378e5159066a94e417dd4ed",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 369,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"createPidFile\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 369,
+                "endOffset": 21,
+                "startOffset": 8,
+                "startLine": 369
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwv8",
+            "hash": "ceb588e7e9bed3a528e1b7c5713156fb",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 375,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"lastPid\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 375,
+                "endOffset": 23,
+                "startOffset": 16,
+                "startLine": 375
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwv6",
+            "hash": "c0cae2b9fbdeb4647302183b7a06ff6a",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 376,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"lastProcessCmdline\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 376,
+                "endOffset": 30,
+                "startOffset": 12,
+                "startLine": 376
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwv7",
+            "hash": "529c0e4d00dd349a1e4eff40bc02c975",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 397,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"fileHandle\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 397,
+                "endOffset": 22,
+                "startOffset": 12,
+                "startLine": 397
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwv5",
+            "hash": "5681b9f5fdadf8469ce00b76c9686c8b",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 406,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"removePidFile\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 406,
+                "endOffset": 21,
+                "startOffset": 8,
+                "startLine": 406
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwv-",
+            "hash": "c2e45f11762d08ba81c2045dba0fbfc1",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 415,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"checkInGracePeriod\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 415,
+                "endOffset": 26,
+                "startOffset": 8,
+                "startLine": 415
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwA",
+            "hash": "c1b1e71292ca31db9434d3681426c533",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 418,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"gracePeriod\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 418,
+                "endOffset": 23,
+                "startOffset": 12,
+                "startLine": 418
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwv_",
+            "hash": "b78e6ebbaee7453060712810fe5b93a2",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 426,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"isEnabled\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 426,
+                "endOffset": 17,
+                "startOffset": 8,
+                "startLine": 426
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwB",
+            "hash": "af39c06b923489c484ab086cc8738fe9",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 435,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"checkPostgresMasterIsUp\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 435,
+                "endOffset": 31,
+                "startOffset": 8,
+                "startLine": 435
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwD",
+            "hash": "528f54b48328fb816b10967deea29ea1",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 445,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"returnCode\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 445,
+                "endOffset": 22,
+                "startOffset": 12,
+                "startLine": 445
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwC",
+            "hash": "03ef4d3978c6b2834a5c46c34be6718a",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 456,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"confirmPostgresqlFailOver\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 456,
+                "endOffset": 33,
+                "startOffset": 8,
+                "startLine": 456
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwF",
+            "hash": "cc06e8086867d2f3bbd88540de865b08",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 470,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"recoverFile\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 470,
+                "endOffset": 23,
+                "startOffset": 12,
+                "startLine": 470
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwE",
+            "hash": "560e00592024500aefdef5156b347b00",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 493,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"confirmCollectorFailOver\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 493,
+                "endOffset": 32,
+                "startOffset": 8,
+                "startLine": 493
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwG",
+            "hash": "e8d5dc70f0d2b43cf632d2f133f6e752",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 510,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"confirmWebAppFailOver\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 510,
+                "endOffset": 29,
+                "startOffset": 8,
+                "startLine": 510
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwH",
+            "hash": "d05bcc93a4d73d95f2d7f59e7d324bfa",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 527,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"confirmFailOver\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 527,
+                "endOffset": 23,
+                "startOffset": 8,
+                "startLine": 527
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwI",
+            "hash": "36c7900389866737db2c15b50229d4ae",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 540,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"callSystemctl\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 540,
+                "endOffset": 21,
+                "startOffset": 8,
+                "startLine": 540
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwK",
+            "hash": "291fa30832fb6e347dca556957d02eed",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 550,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"returnCode\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 550,
+                "endOffset": 22,
+                "startOffset": 12,
+                "startLine": 550
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwJ",
+            "hash": "03ef4d3978c6b2834a5c46c34be6718a",
+            "status": "OPEN"
+        },
+        {
+            "severity": "CRITICAL",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 561,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S3776",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "9min",
+            "message": "Refactor this function to reduce its Cognitive Complexity from 19 to the 15 allowed.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "brain-overload"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 566,
+                                "endOffset": 14,
+                                "startOffset": 8,
+                                "startLine": 566
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 571,
+                                "endOffset": 10,
+                                "startOffset": 8,
+                                "startLine": 571
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+2 (incl 1 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 572,
+                                "endOffset": 14,
+                                "startOffset": 12,
+                                "startLine": 572
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+2 (incl 1 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 576,
+                                "endOffset": 14,
+                                "startOffset": 12,
+                                "startLine": 576
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+2 (incl 1 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 579,
+                                "endOffset": 14,
+                                "startOffset": 12,
+                                "startLine": 579
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 583,
+                                "endOffset": 10,
+                                "startOffset": 8,
+                                "startLine": 583
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+2 (incl 1 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 584,
+                                "endOffset": 14,
+                                "startOffset": 12,
+                                "startLine": 584
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+2 (incl 1 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 588,
+                                "endOffset": 14,
+                                "startOffset": 12,
+                                "startLine": 588
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+2 (incl 1 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 591,
+                                "endOffset": 14,
+                                "startOffset": 12,
+                                "startLine": 591
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 595,
+                                "endOffset": 10,
+                                "startOffset": 8,
+                                "startLine": 595
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+2 (incl 1 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 596,
+                                "endOffset": 14,
+                                "startOffset": 12,
+                                "startLine": 596
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 596,
+                                "endOffset": 39,
+                                "startOffset": 36,
+                                "startLine": 596
+                            }
+                        }
+                    ]
+                }
+            ],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 561,
+                "endOffset": 25,
+                "startOffset": 8,
+                "startLine": 561
+            },
+            "assignee": "abpatha2",
+            "debt": "9min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwO",
+            "hash": "4181160773705af7171828484adcf4e1",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 561,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"callSupervisorctl\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 561,
+                "endOffset": 25,
+                "startOffset": 8,
+                "startLine": 561
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwN",
+            "hash": "4181160773705af7171828484adcf4e1",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 570,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"resultSplit\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 570,
+                "endOffset": 19,
+                "startOffset": 8,
+                "startLine": 570
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwM",
+            "hash": "be6ff5c2c754b34895100aa3ecadfccd",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 578,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"restOfLine\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 578,
+                "endOffset": 22,
+                "startOffset": 12,
+                "startLine": 578
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwL",
+            "hash": "f85feb92f67f213eb0602387e15c940e",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MAJOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 596,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S1066",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Merge this if statement with the enclosing one.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "clumsy"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "msg": "enclosing",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 595,
+                                "endOffset": 10,
+                                "startOffset": 8,
+                                "startLine": 595
+                            }
+                        }
+                    ]
+                }
+            ],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 596,
+                "endOffset": 14,
+                "startOffset": 12,
+                "startLine": 596
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwu6",
+            "hash": "fa8318812a02de7bc53e6eac9ef5f57c",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 600,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"enableSupervisordService\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 600,
+                "endOffset": 32,
+                "startOffset": 8,
+                "startLine": 600
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwQ",
+            "hash": "c837e7ca524394b60a203ef2a5e713d4",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 615,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"returnCode\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 615,
+                "endOffset": 22,
+                "startOffset": 12,
+                "startLine": 615
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwP",
+            "hash": "03ef4d3978c6b2834a5c46c34be6718a",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 627,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"stopPostgresMasterService\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 627,
+                "endOffset": 33,
+                "startOffset": 8,
+                "startLine": 627
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwS",
+            "hash": "6bbb4be8047f504df75a831450c97974",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 637,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"returnCode\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 637,
+                "endOffset": 22,
+                "startOffset": 12,
+                "startLine": 637
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwR",
+            "hash": "03ef4d3978c6b2834a5c46c34be6718a",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 646,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"disablePostgresMasterService\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 646,
+                "endOffset": 36,
+                "startOffset": 8,
+                "startLine": 646
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwU",
+            "hash": "166e02550b385710e03a8d2b71d7870b",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 656,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"returnCode\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 656,
+                "endOffset": 22,
+                "startOffset": 12,
+                "startLine": 656
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwT",
+            "hash": "03ef4d3978c6b2834a5c46c34be6718a",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 665,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"triggerPostgresqlBackupToMaster\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 665,
+                "endOffset": 39,
+                "startOffset": 8,
+                "startLine": 665
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwX",
+            "hash": "25c8d1e243481fc0dfa4879b10f3be9d",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 668,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"tiggerFile\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 668,
+                "endOffset": 22,
+                "startOffset": 12,
+                "startLine": 668
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwW",
+            "hash": "a765b4525054aac83edae9461591ad88",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 682,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"returnCode\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 682,
+                "endOffset": 22,
+                "startOffset": 12,
+                "startLine": 682
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwV",
+            "hash": "03ef4d3978c6b2834a5c46c34be6718a",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 696,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"failOverPostgresql\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 696,
+                "endOffset": 26,
+                "startOffset": 8,
+                "startLine": 696
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwY",
+            "hash": "b397d5bd97c3c069953c70d10972be00",
+            "status": "OPEN"
+        },
+        {
+            "severity": "CRITICAL",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 714,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S3776",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "12min",
+            "message": "Refactor this function to reduce its Cognitive Complexity from 22 to the 15 allowed.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "brain-overload"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 716,
+                                "endOffset": 10,
+                                "startOffset": 8,
+                                "startLine": 716
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 719,
+                                "endOffset": 12,
+                                "startOffset": 8,
+                                "startLine": 719
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 724,
+                                "endOffset": 11,
+                                "startOffset": 8,
+                                "startLine": 724
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+2 (incl 1 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 725,
+                                "endOffset": 14,
+                                "startOffset": 12,
+                                "startLine": 725
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 725,
+                                "endOffset": 50,
+                                "startOffset": 47,
+                                "startLine": 725
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 725,
+                                "endOffset": 82,
+                                "startOffset": 80,
+                                "startLine": 725
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+3 (incl 2 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 726,
+                                "endOffset": 18,
+                                "startOffset": 16,
+                                "startLine": 726
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 728,
+                                "endOffset": 20,
+                                "startOffset": 16,
+                                "startLine": 728
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 732,
+                                "endOffset": 10,
+                                "startOffset": 8,
+                                "startLine": 732
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 738,
+                                "endOffset": 11,
+                                "startOffset": 8,
+                                "startLine": 738
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+2 (incl 1 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 739,
+                                "endOffset": 14,
+                                "startOffset": 12,
+                                "startLine": 739
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+3 (incl 2 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 740,
+                                "endOffset": 18,
+                                "startOffset": 16,
+                                "startLine": 740
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+1",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 743,
+                                "endOffset": 20,
+                                "startOffset": 16,
+                                "startLine": 743
+                            }
+                        }
+                    ]
+                },
+                {
+                    "locations": [
+                        {
+                            "msg": "+3 (incl 2 for nesting)",
+                            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+                            "textRange": {
+                                "endLine": 748,
+                                "endOffset": 18,
+                                "startOffset": 16,
+                                "startLine": 748
+                            }
+                        }
+                    ]
+                }
+            ],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 714,
+                "endOffset": 25,
+                "startOffset": 8,
+                "startLine": 714
+            },
+            "assignee": "abpatha2",
+            "debt": "12min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwwj",
+            "hash": "52c167e91875de778725e62c2f6a4e78",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 714,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S100",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "5min",
+            "message": "Rename method \"failOverCollector\" to match the regular expression ^[a-z_][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 714,
+                "endOffset": 25,
+                "startOffset": 8,
+                "startLine": 714
+            },
+            "assignee": "abpatha2",
+            "debt": "5min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwwi",
+            "hash": "52c167e91875de778725e62c2f6a4e78",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 717,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"localAction\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 717,
+                "endOffset": 23,
+                "startOffset": 12,
+                "startLine": 717
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwwa",
+            "hash": "9506e0941559f8079a42119bc9490cca",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 718,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"remoteAction\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 718,
+                "endOffset": 24,
+                "startOffset": 12,
+                "startLine": 718
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwwd",
+            "hash": "a3bde4357688247e89aa711cefdd2e79",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 723,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"thisHostOriginalRole\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 723,
+                "endOffset": 28,
+                "startOffset": 8,
+                "startLine": 723
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4Kwwh",
+            "hash": "af67696242b2a00570a3d13895660f6e",
+            "status": "OPEN"
+        },
+        {
+            "severity": "MINOR",
+            "updateDate": "2022-08-03T14:05:56+0000",
+            "comments": [],
+            "line": 724,
+            "author": "abpatha2@cisco.com",
+            "rule": "python:S117",
+            "project": "MATRIX_FUNCTION_PACK.Matrix_Cloud",
+            "effort": "2min",
+            "message": "Rename this local variable \"backupHost\" to match the regular expression ^[_a-z][a-z0-9_]*$.",
+            "transitions": [
+                "confirm",
+                "resolve",
+                "falsepositive",
+                "wontfix"
+            ],
+            "creationDate": "2021-01-11T09:14:15+0000",
+            "type": "CODE_SMELL",
+            "tags": [
+                "convention"
+            ],
+            "component": "MATRIX_FUNCTION_PACK.Matrix_Cloud:ha_support/bin/ha_lib.py",
+            "flows": [],
+            "scope": "MAIN",
+            "textRange": {
+                "endLine": 724,
+                "endOffset": 47,
+                "startOffset": 37,
+                "startLine": 724
+            },
+            "assignee": "abpatha2",
+            "debt": "2min",
+            "actions": [
+                "set_type",
+                "set_tags",
+                "comment",
+                "set_severity",
+                "assign"
+            ],
+            "key": "AYJkCSQ8N_D1mrB4KwwZ",
+            "hash": "c020214f66e46f357a46947b8b0d28db",
+            "status": "OPEN"
+        }
+    ],
+    "users": [
+        {
+            "name": "bibshaik",
+            "active": true,
+            "avatar": "897e4c5689f4488e1d8ec5181cbf9839",
+            "login": "bibshaik"
+        },
+        {
+            "name": "abpatha2",
+            "active": true,
+            "avatar": "d2cc909f00adc298ba363e9c513be7d7",
+            "login": "abpatha2"
+        },
+        {
+            "name": "ngadhe",
+            "active": true,
+            "avatar": "252b50be94743cbcbd74095942cbc711",
+            "login": "ngadhe"
+        }
+    ],
+    "facets": [
+        {
+            "values": [
+                {
+                    "val": "MINOR",
+                    "count": 4665
+                },
+                {
+                    "val": "MAJOR",
+                    "count": 1939
+                },
+                {
+                    "val": "CRITICAL",
+                    "count": 1089
+                },
+                {
+                    "val": "BLOCKER",
+                    "count": 15
+                },
+                {
+                    "val": "INFO",
+                    "count": 0
+                }
+            ],
+            "property": "severities"
+        },
+        {
+            "values": [
+                {
+                    "val": "CODE_SMELL",
+                    "count": 7615
+                },
+                {
+                    "val": "BUG",
+                    "count": 51
+                },
+                {
+                    "val": "VULNERABILITY",
+                    "count": 42
+                }
+            ],
+            "property": "types"
+        },
+        {
+            "values": [
+                {
+                    "val": "a3",
+                    "count": 29
+                },
+                {
+                    "val": "a6",
+                    "count": 29
+                },
+                {
+                    "val": "a1",
+                    "count": 10
+                },
+                {
+                    "val": "a5",
+                    "count": 2
+                },
+                {
+                    "val": "a7",
+                    "count": 2
+                }
+            ],
+            "property": "owaspTop10"
+        },
+        {
+            "values": [
+                {
+                    "val": "insecure-interaction",
+                    "count": 3
+                },
+                {
+                    "val": "porous-defenses",
+                    "count": 2
+                },
+                {
+                    "val": "risky-resource",
+                    "count": 1
+                }
+            ],
+            "property": "sansTop25"
+        },
+        {
+            "values": [
+                {
+                    "val": "weak-cryptography",
+                    "count": 29
+                },
+                {
+                    "val": "rce",
+                    "count": 9
+                },
+                {
+                    "val": "xss",
+                    "count": 2
+                },
+                {
+                    "val": "open-redirect",
+                    "count": 1
+                },
+                {
+                    "val": "path-traversal-injection",
+                    "count": 1
+                }
+            ],
+            "property": "sonarsourceSecurity"
+        }
+    ]
+}

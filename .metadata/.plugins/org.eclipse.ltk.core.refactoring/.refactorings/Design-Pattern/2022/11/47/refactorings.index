@@ -1,0 +1,12 @@
+1668354673665	Rename field 'enemy_damage'
+1668354824120	Delete element
+1668354826279	Delete element
+1668354827952	Delete element
+1668354829862	Delete element
+1668355642495	Delete element
+1668356526917	Rename type 'Weapon'
+1668356549766	Rename type 'Attack'
+1668402035390	Rename type 'GameCalc'
+1668405749494	Rename method 'fired'
+1668409319534	Rename package 'com.structural.strategyDesignPattern'
+1668409660632	Rename package 'com.behavioural.DesignPattern'

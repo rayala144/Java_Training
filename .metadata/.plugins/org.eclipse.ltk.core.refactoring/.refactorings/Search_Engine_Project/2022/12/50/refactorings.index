@@ -1,0 +1,19 @@
+1670147830698	Rename local variable 'hi'
+1670148623058	Rename method 'mainq'
+1670148999308	Rename local variable 'excpect'
+1670151847125	Delete element
+1670169958770	Move compilation units
+1670302520960	Copy package
+1670303972159	Delete element
+1670303975495	Delete element
+1670303977968	Delete element
+1670308939537	Rename local variable 'outputString'
+1670316753077	Rename local variable 'inputString'
+1670390486302	Rename package 'com.fileexplorer.network.copy'
+1670390661094	Rename type 'S_Class'
+1670390930778	Rename type 'C_Class'
+1670488880957	Rename field 'server'
+1670497234941	Rename field 'pt'
+1670497770333	Rename local variable 'sObject'
+1670501332408	Delete element
+1670501348757	Rename package 'com.fileexplorer.network.copy2'

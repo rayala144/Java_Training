@@ -1,0 +1,5 @@
+package com.fileexplorer.network.copy;
+
+public class ServerThread {
+
+}

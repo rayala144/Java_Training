@@ -1,0 +1,26 @@
+package com.fileexplorer.network.copy;
+
+import java.io.IOException;
+
+public class ThreadServer implements Runnable {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ThreadServer ts = new ThreadServer();
+		while (true) {
+			Thread thread = new Thread(ts);
+		}
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		try {
+			new Server();
+		} catch (IOException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+
+}

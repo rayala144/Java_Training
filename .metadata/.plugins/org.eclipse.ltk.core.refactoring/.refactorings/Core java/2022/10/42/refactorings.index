@@ -1,0 +1,54 @@
+1665404229137	Rename local variable 'maxLength'
+1665462704382	Copy compilation unit
+1665462819862	Copy compilation unit
+1665462954479	Rename type 'ShortRuntimeExample'
+1665463037249	Copy compilation unit
+1665463179394	Copy compilation unit
+1665463273751	Copy compilation unit
+1665463496572	Rename type 'FloatDataTypeExample'
+1665463516151	Rename type 'LongDataTypeExample'
+1665463533437	Rename type 'ShortDataTypeExample'
+1665463733764	Copy compilation unit
+1665464182862	Copy compilation unit
+1665465338108	Delete element
+1665465361750	Copy package
+1665466448649	Delete element
+1665466478270	Copy package
+1665549085725	Rename package 'com.runtimeInitialization'
+1665557762478	Delete element
+1665560180525	Rename package 'JsonAssessment'
+1665566654568	Copy compilation unit
+1665566726658	Copy compilation unit
+1665566787248	Copy compilation unit
+1665566814919	Copy compilation unit
+1665569262817	Delete element
+1665593186385	Copy compilation unit
+1665593239387	Copy compilation unit
+1665593300453	Copy compilation unit
+1665593305874	Copy compilation unit
+1665593851904	Rename type 'byteReturnTypeExample'
+1665593922147	Rename type 'shortReturnTypeExample'
+1665593990660	Rename type 'FloatReturnTypeExample'
+1665594003903	Rename type 'DoubleReturnTypeExample'
+1665594028119	Rename method 'calculation'
+1665642577788	Rename type 'student'
+1665642836778	Rename type 'Subject'
+1665642944014	Rename method 'display'
+1665643124991	Rename type 'Stream'
+1665643150373	Rename field 'deptName'
+1665643162156	Rename field 'deptNo'
+1665643179118	Rename method 'displayDept'
+1665643187785	Rename method 'readDept'
+1665643357402	Rename method 'displaySubDept'
+1665652552314	Rename package 'com.abstratcExample'
+1665654611945	Rename local variable 'withDrawAmnt'
+1665664194512	Delete element
+1665724304518	Delete element
+1665725148285	Rename package 'com.collection.hasSetExample'
+1665725245077	Rename package 'com.HashSetExample'
+1665725466436	Infer generic type arguments
+1665725551971	Delete element
+1665725626364	Infer generic type arguments
+1665725991272	Delete element
+1665726014585	Delete element
+1665737181358	Move compilation unit

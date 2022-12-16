@@ -1,0 +1,19 @@
+package com.nt.Socketprogramming;
+
+import java.io.DataInputStream;
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.net.Socket;
+
+public class ServerDemo {
+
+	public static void main(String[] args) throws IOException {
+		// TODO Auto-generated method stub
+		System.out.println("Server is created");
+		ServerSocket serverSocket = new ServerSocket();
+		System.out.println("Waiting for client");
+		Socket socket = serverSocket.accept();
+		DataInputStream dis = new DataInputStream(null);
+	}
+
+}

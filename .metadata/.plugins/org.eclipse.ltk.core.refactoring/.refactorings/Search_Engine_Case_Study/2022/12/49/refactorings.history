@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename method &apos;com.socket.server.Server.startReading()&apos; to &apos;startChatting&apos;&#x0D;&#x0A;- Original project: &apos;Search_Engine_Case_Study&apos;&#x0D;&#x0A;- Original element: &apos;com.socket.server.Server.startReading()&apos;&#x0D;&#x0A;- Renamed element: &apos;com.socket.server.Server.startChatting()&apos;&#x0D;&#x0A;- Update references to refactored element" delegate="false" deprecate="false" description="Rename method &apos;startReading&apos;" flags="589826" id="org.eclipse.jdt.ui.rename.method" input="/src&lt;com.socket.server{Server.java[Server~startReading" name="startChatting" references="true" stamp="1669874126559" version="1.0"/>
+</session>

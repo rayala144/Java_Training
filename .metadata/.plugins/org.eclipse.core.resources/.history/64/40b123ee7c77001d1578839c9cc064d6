@@ -1,0 +1,117 @@
+package com.fileexplorer.network.copy;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.PrintWriter;
+import java.net.ServerSocket;
+import java.net.Socket;
+import java.util.List;
+import java.util.Scanner;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import com.fileexplorer.main.SearchEngineMain;
+
+public class ServerClass {
+	int port;
+	ServerSocket ss = null;
+	Socket socket = null;
+	ExecutorService es = null;
+	int clientcount = 0;
+	int numThreads;
+
+	
+	ServerClass(int port, int numThreads) {
+		this.port = port;
+		this.numThreads = numThreads;
+		es = Executors.newFixedThreadPool(numThreads);
+
+	}
+
+	public void startServer() throws IOException {
+
+		ss = new ServerSocket(port);
+		System.out.println("Server started....");
+		System.out.println("To terminate the connection type exit....");
+		while (true) {
+
+			socket = ss.accept();
+			clientcount++;
+			ServerThread st = new ServerThread(socket, clientcount, this);
+			es.execute(st);
+		}
+
+	}
+	
+	public static void main(String[] args) throws IOException {
+		ServerClass serverClass = new ServerClass(9000);
+		serverClass.startServer();
+
+	}
+
+	private static class ServerThread implements Runnable {
+
+		ServerClass serverClass = null;
+		Socket client = null;
+		BufferedReader in;
+		PrintWriter out;
+		Scanner sc = new Scanner(System.in);
+		int id;
+		String input;
+		private String outputString = "";
+
+		ServerThread(Socket client, int count, ServerClass serverClass) throws IOException {
+
+			this.client = client;
+			this.serverClass = serverClass;
+			this.id = count;
+			System.out.println("Connection started with client " + id);
+
+			in = new BufferedReader(new InputStreamReader(client.getInputStream()));
+			out = new PrintWriter(client.getOutputStream(), true);
+
+		}
+
+		@Override
+		public void run() {
+			int x = 1;
+			try {
+				while (true) {
+					input = in.readLine();
+					System.out.print("Client(" + id + ") : " + input + "\n");
+
+					if (input.equalsIgnoreCase("exit")) {
+						out.println("Server aborted the connection...");
+						x = 0;
+						System.out.println("Connection ended....");
+						break;
+					} else if ((input.length() >= 6) && ((input.charAt(input.length() - 4) == '.')
+							|| (input.charAt(input.length() - 5) == '.'))) {
+
+						System.out.println("Client requested for searching file " + input);
+						SearchEngineMain sem = new SearchEngineMain();
+						List<String> filepaths = sem.mainSearch(input);
+						outputString = "Location: " + filepaths;
+						out.println(outputString);
+
+					} else {
+						System.out.print("Server: ");
+						String output = sc.nextLine();
+						out.println(output);
+					}
+
+				}
+
+				in.close();
+				client.close();
+				out.close();
+				if (x == 0) {
+					System.out.println("*************Closing**************");
+					System.exit(0);
+				}
+			} catch (Exception e) {
+				e.printStackTrace();
+			}
+		}
+	}
+}
